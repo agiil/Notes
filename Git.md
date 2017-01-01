@@ -7,8 +7,15 @@ sidebar: true
 ---
 
 # Git
+{:.no_toc}
 
-- GitHub lokaalse repo loomine
+* TOC
+{:toc}
+
+
+## GitHubi lokaalne repo
+
+- lokaalse repo loomine
   - mine kataloogi, kuhu alla lokaalne repo luua
   `git clone <GitHubi repo URL>`
 - mis faile on muudetud?
@@ -43,17 +50,17 @@ sidebar: true
 
 - `find . -type f | wc -l`
 
-### Parooliküsimise vältimine
+## Parooliküsimise vältimine
 
 - `git config --global credential.helper wincred`
 
-### Kirjandus
+## Kirjandus
 
-- Git interaktiivne spikker: http://ndpsoftware.com/git-cheatsheet.html#loc=workspace; 
-- Gitflow parem diagramm: http://www.patrickzahnd.ch/ 
-- 2FA GitHubis: http://blog.swilliams.me/words/2015/04/01/two-factor-authentication-for-github/ 
-- https://www.quora.com/How-does-Git-merge-work 
-- https://betterexplained.com/articles/aha-moments-when-learning-git/ 
+- [Git interaktiivne spikker](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
+- [Gitflow parem diagramm](http://www.patrickzahnd.ch/)
+- [2FA GitHubis](http://blog.swilliams.me/words/2015/04/01/two-factor-authentication-for-github/) 
+- [Kuidas mestimine töötab?](https://www.quora.com/How-does-Git-merge-work)
+- [aha-moments-when-learning-git](https://betterexplained.com/articles/aha-moments-when-learning-git/) 
 
 
 
