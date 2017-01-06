@@ -14,7 +14,7 @@ sidebar: false
 
 ## 1  Mudelid
 
-|[](img/Mudelid.png)
+|[](img/Mudelid.PNG)
 
 - Progemine -> Tarkvara kasutamine
   - *Build and They Will Come
