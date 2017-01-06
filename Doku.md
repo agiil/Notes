@@ -28,9 +28,11 @@ sidebar: false
   - Märkus. Inimesi, kellel on võime/tahe IT-s asju lahti seletada, on väga vähe. 
   - Six-page memo (jeff Bezos/Amazon)
  - *The Missing Manual -- O'Reilly
- -Anto: Mis on X-tee v6 dokumentatsioonis puudu? Juhend, mis _seletab lahti_ HSM-i olemuse
+ -Mis on toote YYY dokumentatsioonis puudu? Juhend, mis _seletab lahti_ XXX olemuse
 
 ## 3  Ambitsioonitasemed
+
+Kui peame dokumentatsiooni oluliseks, soovime head dokumentatsiooni.
   - tase 0: mingi dokumentatsioon, suvalises vormingus (PDF)
   - ...
   - navigeeritav, kontekstiläbuta, professionaalse kujundusega dokumentatsioonisait
@@ -63,7 +65,7 @@ sidebar: false
   - Sublime Text 3
   - asciiFlow
 
-![](img/Doku.PNG)  
+![](img/Dokuvoog.PNG)  
 
 ## 7  Viie projekti võrdlus
   - projekt 1: dokumentatsiooni kvaliteet üldiselt hea, nõudis tellija suurt tähelepanu 
