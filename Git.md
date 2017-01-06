@@ -28,6 +28,7 @@ sidebar: true
   - `git commit -m <kirjeldus>`
 - lokaalse repo värskendamine: `git pull`
   - lokaalsete muudatuste üleslaadimine (eeldab push-õigust): `git push [origin]`
+- lokaalsete muudatuste hülgamine: `git reset --hard`  
 - harude kuvamine
   - kõik: (jooksev haru tärniga): `git branch`
     - kuvab nii lokaalsed kui ka eemal (remote) jälgitavad (tracking) harud: `git branch -a`
