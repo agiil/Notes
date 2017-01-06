@@ -12,6 +12,7 @@ sidebar: true
 * TOC
 {:toc}
 
+<a href='https://github.com/agiil/Notes'>Edit</a>
 
 ## GitHubi lokaalne repo
 
@@ -47,9 +48,12 @@ sidebar: true
 
 - paste Git Bashis: `<Fn><Insert>` (Lenovo)
 
-## Failide rekursiivne loendamine jooksvas kataloogis
+## Loendamine
 
-- `find . -type f | wc -l`
+- Failide rekursiivne loendamine jooksvas kataloogis: `find . -type f | wc -l`
+- Kaustade arv (rekursiivne): `find DHX-Adapter -type d | wc -l`
+- LOC count: `shopt -s globstar`, seejärel `wc -l **/*.java`
+- muudatuste statistika: `git diff --stat <commit>`
 
 ## Parooliküsimise vältimine
 
