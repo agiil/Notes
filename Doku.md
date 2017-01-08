@@ -14,7 +14,22 @@ sidebar: false
 
 ## 1  Mudelid
 
-![](img/Mudelid.PNG)
++---------------+----------------------+
+|Progemine      |  Tarkvara kasutamine |
++---------------+----------------------+
+
+            +----------->
+
++------------+----------+--------------+
+|Progemine   | Müük     |  Kasutamine  |
++------------+----------+--------------+
+
+
++-----------------+--------------------+
+|Progemine|Dok ne | Müük    |Kasutamine|
++-----------------+--------------------+
+
+    Dok-ne +-----> Dok-ni kasutamine
 
 - Progemine -> Tarkvara kasutamine
   - *Build and They Will Come
