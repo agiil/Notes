@@ -14,6 +14,7 @@ sidebar: false
 
 ## 1  Mudelid
 
+```
 +---------------+----------------------+
 |Progemine      |  Tarkvara kasutamine |
 +---------------+----------------------+
@@ -30,6 +31,7 @@ sidebar: false
 +-----------------+--------------------+
 
     Dok-ne +-----> Dok-ni kasutamine
+```
 
 - Progemine -> Tarkvara kasutamine
   - *Build and They Will Come
