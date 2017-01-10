@@ -83,8 +83,8 @@ Kui peame dokumentatsiooni oluliseks, soovime head dokumentatsiooni.
   - CSS3
   - Liquid
   - YAML
-  - Sublime Text 3
-    - [GitSavvy](https://github.com/divmain/GitSavvy/blob/master/docs/README.md)
+  - [Sublime Text 3](http://docs.sublimetext.info/en/latest/index.html) - programmeerija tekstiredaktor
+    - [GitSavvy](https://github.com/divmain/GitSavvy) - tekstiredaktori Sublime Text 3 ja Giti lõimetis
   - asciiFlow
   
   <span style='text-decoration: underline;'>Järeldus.</span> Kahjuks ei saa me läbi ühe töövahendiga. Töövahendite lõimimine on päris suur väljakutse.

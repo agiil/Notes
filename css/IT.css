@@ -132,42 +132,31 @@ body {
   color: #424242;
   }
 
-/** Headings ******************************************************************/
+/* Headings */
   h1, h2, h3, h4, dt {
     font: 100% sans-serif;   /* Reset all font styling to clear out UA styles */
     font-family: 'Roboto', monospace;    /* Inherit the font family. */
     line-height: 1.2;        /* Keep wrapped headings compact */
     hyphens: manual;         /* Hyphenated headings look weird */
   }
-  h1, h2, h3, h4 { color: #424242; font-weight: bold; }
+  h1, h2, h3, h4 { color: #424242; /* Grey 800 */
+      font-weight: bold; }
   h1 { font-size: 170%; margin-top: 1em; }
   h2 { font-size: 130%; font-weight: bold; margin-top: 1em; }
-  h3 { font-weight: bold; margin-top: 0.5em; }
+  h3 { text-decoration: underline; margin-top: 0.5em; }
   h4 { font-style: italic; margin-left: 4em; margin-top: 0.5em; }
 
-/******************************************************************************/
-/*                            Paragraphs and Lists                            */
-/******************************************************************************/
-  p {
-    margin: 1em 0;
-  }
-  dd > p:first-child,
-  li > p:first-child {
-    margin-top: 0;
-  }
-  ul, ol {
-    margin-left: 0;
-    padding-left: 2em;
-  }
-  li {
-    margin: 0.25em 0 0.5em;
-    padding: 0;
-  }
-  dl dd { margin: 0 0 .5em 2em; }
-        dt { font-weight: bold; font-style: italic; }
+/* Paragraphs and Lists */
+  p { margin: 1em 0; }
 
-/******************************************************************************/
-/*                                    Code                                    */
+  pikem { margin-left: 4rem; font-family: 'Times New Roman', serif;
+    font-size: 14pt; }
+
+  li > p:first-child { margin-top: 0; }
+  ul, ol { margin-left: 0; padding-left: 2em; }
+  li { margin: 0.25em 0 0.5em; padding: 0; }
+
+/* Code */
   pre, code, samp {
     font-family: 'Anonymous Pro', monospace;
     font-size: 18px;
@@ -188,14 +177,11 @@ body {
   }
 
 
-/** General Hyperlinks ********************************************************/
-
-  /* We hyperlink a lot, so make it less intrusive */
+/* Links */
   a[href] {
     color: #607D8B;
     text-decoration: none;
     border-bottom: 1px solid #607D8B;
-    /* Need a bit of extending for it to look okay */
     padding: 0 1px 0;
     margin: 0 -1px 0;
   }
@@ -203,7 +189,6 @@ body {
     border-bottom-color: #607D8B;
   }
 
-  /* Use distinguishing colors when user is interacting with the link */
   a[href]:focus,
   a[href]:hover {
     background: #607D8B;
