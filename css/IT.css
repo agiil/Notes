@@ -28,6 +28,8 @@ ul, ol {
   margin-left: 0; padding-left: 2em; }
 li { margin: 0.25em 0 0.5em; padding: 0; }
 
+.lead { font-family: 'Anonymous Pro', sans-serif; }
+
 /* ---- Paigutus ---- */
 #Container {
   display: flex;
