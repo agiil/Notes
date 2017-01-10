@@ -8,19 +8,19 @@ sidebar: false
 
 # Põletav probleem
 
-Mis oleks see põletav probleem, mis ettevõtjaid IT-ga seoses huvitaks?
+<p class='lead'>Mis oleks see põletav probleem, mis ettevõtjaid IT-ga seoses huvitaks?</p>
 
-Peaks olema midagi suuremat kui igapäevane IT-ga hakkamasaamine.
+Peaks olema midagi suuremat kui igapäevane IT-ga hakkamasaamine. Igapäevane IT-ga hakkamasaamine on oluline, kuid sellest jääks väheks.
 
-Igapäevane IT-ga hakkamasaamine on oluline, kuid sellest jääks väheks. Ettevõtte ellujäämine, survival? Kui küsimus on turu olemasolus, siis IT vaevalt saab otsustavalt aidata
+<span class='lead'>Ettevõtte ellujäämine, survival?</span> Kui küsimus on turu olemasolus, siis IT vaevalt saab otsustavalt aidata.
 
-Kulude kokkuhoid? Jah, kindlasti, arvestus- ja analüütikasüsteemid, automatiseerimine, kuid kas see on alustavatele ettevõtjatele kõige põletavam küsimus? (Ilmselt võib olla, kuid kahtlane, kas enamusele).
+<span class='lead'>Kulude kokkuhoid?</span> Jah, kindlasti, arvestus- ja analüütikasüsteemid, automatiseerimine, kuid kas see on alustavatele ettevõtjatele kõige põletavam küsimus? (Ilmselt võib olla, kuid kahtlane, kas enamusele).
 
-Palju suurem ja huvitavam oleks  ettevõtte kasvu küsimus.
+Palju suurem ja huvitavam oleks ettevõtte kasvu küsimus.
 
-Oluline tähelepanek on, et erineva suurusega (haardega) ettevõtted vajavad erinevaid süsteeme. Erinevas elustaadiumis ettevõtted vajavad erinevaid süsteeme. Väikese, alustava ettevõtte puhul võib väita, et ettevõte vajab üldse esimest süsteemi (tal pole ühtegi).
+<span class='lead'>Erinevas elustaadiumis ettevõtted vajavad erinevaid süsteeme.</span> Väikese, alustava ettevõtte puhul võib väita, et ettevõte vajab üldse esimest süsteemi (tal pole ühtegi).
 
-Tänapäeval peab süsteem olema paindlik. Alustavas ettevõttes süsteem tihti lapitakse kokku erinevatest pilveteenustest. Ühest süsteemist tavaliselt ei piisa – see oleks liiga jäik ja liiga suur ettevõtmine. Kuid süsteemid peavad üksteisega siiski sobituma, koos moodustama vähemalt enam-vähem toimiva terviku. Jne.
+<span class='lead'>Süsteem olema paindlik.</span> Alustavas ettevõttes süsteem tihti lapitakse kokku erinevatest pilveteenustest. Ühest süsteemist tavaliselt ei piisa – see oleks liiga jäik ja liiga suur ettevõtmine. Kuid süsteemid peavad üksteisega siiski sobituma, koos moodustama vähemalt enam-vähem toimiva terviku.
 
 ## IT – ettevõtte kasvu võimaldaja
 

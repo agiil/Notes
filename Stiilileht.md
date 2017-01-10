@@ -16,6 +16,8 @@ Põhitekst: Times New Roman 14pt. Tekst ja pealkirjad: Grey 800.
 - loetelud on teksti pikitud "slaidid"
 - loetelu test: Anonymous Pro 14pt
 
+<span class='lead'>Lead on väljatõstetud mõte, millele järgneb pikem mõttearendus.</span> Lead vormistatakse klassi `lead` abil.
+
 ### Pealkirjad
 
 - ainult pealkiri ja kaks taset jaotisi 
