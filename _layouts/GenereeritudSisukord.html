@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Material Design icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+    <!-- Fonts -->    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/IT.css">
+    <script src='{{ site.baseurl }}/js/Utils.js'></script>
+
+  </head>
+  <body>
+    <h3>Märkmed / Notes</h3>
+
+    {{ content }}
+    
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        <a href="{{ node.url }}">{{ node.title }}</a><br>
+      {% endif %}
+    {% endfor %}    
+        
+  </body>
+</html>
