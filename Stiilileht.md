@@ -7,18 +7,21 @@ sidebar: false
 ---
 # Stiilileht
 
-## Hierarhia
+## Tekst
 
-- Pealkiri: h1, Grey 800
-- Jaotise pealkiri: h2, Grey 800
-- teise taseme jaotis: allkriipsutusega
-- edasi loeteludega
+Põhitekst: Times New Roman 14pt. Tekst ja pealkirjad: Grey 800.
 
-### Pikem selgitus
+- loetelud on teksti pikitud "slaidid"
+- loetelu test: Anonymous Pro 14pt
 
-<p class='pikem'>Pikem selgitus: class: pikem, font: Times New Roman 14pt</p>
+## Pealkirjad
 
-## Teksti värv
+- ainult pealkiri ja kaks taset jaotisi 
+- pealkiri: h1, 170%, Grey 800
+- jaotise pealkiri: h2, 130%, Grey 800
+- teise taseme jaotise pealkiri: allkriipsutusega.
+
+## Teksti värv (mitte kasutatud)
 
 [Material Design soovitus](https://material.io/guidelines/style/color.html#color-text-background-colors):
 
