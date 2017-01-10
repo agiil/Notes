@@ -121,6 +121,7 @@ blockquote {
   text-decoration: underline;
 }
 
+/* Body */
 body {
   max-width: 50em; /* limit line length to 50em for readability   */
   margin: 0 0; 
