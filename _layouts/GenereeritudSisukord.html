@@ -17,14 +17,13 @@
 
   </head>
   <body>
-    <h3>Märkmed / Notes</h3>
 
     {{ content }}
     
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
       {% if node.title != null %}
-        <a href="{{ node.url }}">{{ node.title }}</a><br>
+        <a href="{{ site.baseurl }}/{{ node.permalink }}">{{ node.title }}</a><br>
       {% endif %}
     {% endfor %}    
         
