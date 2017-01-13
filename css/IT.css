@@ -1,3 +1,35 @@
+/* Body */
+body {
+  max-width: 50em; /* limit line length to 50em for readability   */
+  margin: 0 0; 
+  padding: 1.6em 1.5em 2em 1em; 
+  line-height: 1.2;
+  font-family: 'Times New Roman', serif;
+  font-size: 14pt; 
+  color: #424242;  /* Grey 800 */
+  }
+
+/* Headings */
+h1, h2, h3 { line-height: 1.2; }
+h1, h2 {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; 
+  margin-top: 1em; }
+h1 { font-size: 170%; }  
+h2 { font-size: 130%; }
+h3 { text-decoration: underline; margin: 1em 0; }
+
+/* Paragraphs and Lists */
+p { margin: 1em 0; }
+
+li > p:first-child { margin-top: 0; }
+ul, ol { 
+  font-family: 'Anonymous Pro', sans-serif;
+  margin-left: 0; padding-left: 2em; }
+li { margin: 0.25em 0 0.5em; padding: 0; }
+
+.lead { font-family: 'Anonymous Pro', sans-serif; }
+
 /* ---- Paigutus ---- */
 #Container {
   display: flex;
@@ -120,41 +152,6 @@ blockquote {
 .concept { 
   text-decoration: underline;
 }
-
-/* Body */
-body {
-  max-width: 50em; /* limit line length to 50em for readability   */
-  margin: 0 0; 
-  padding: 1.6em 1.5em 2em 1em; 
-  line-height: 1.2;
-  font-family: 'Anonymous Pro', sans-serif;
-  font-size: 14pt; 
-  color: #424242;
-  }
-
-/* Headings */
-h1, h2, h3, h4, dt {
-  font: 100% sans-serif;   /* Reset all font styling to clear out UA styles */
-  font-family: 'Roboto', monospace;    /* Inherit the font family. */
-  line-height: 1.2;        /* Keep wrapped headings compact */
-  hyphens: manual;         /* Hyphenated headings look weird */
-}
-h1, h2, h3, h4 { color: #424242; /* Grey 800 */
-    font-weight: bold; }
-h1 { font-size: 170%; margin-top: 1em; }
-h2 { font-size: 130%; font-weight: bold; margin-top: 1em; }
-h3 { text-decoration: underline; margin-top: 0.5em; }
-h4 { font-style: italic; margin-left: 4em; margin-top: 0.5em; }
-
-/* Paragraphs and Lists */
-p { margin: 1em 0; }
-
-.pikem { margin-left: 4rem; font-family: 'Times New Roman', serif;
-  font-size: 14pt; }
-
-li > p:first-child { margin-top: 0; }
-ul, ol { margin-left: 0; padding-left: 2em; }
-li { margin: 0.25em 0 0.5em; padding: 0; }
 
 /* Code */
 pre, code, samp {

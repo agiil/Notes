@@ -2,4 +2,11 @@
 title: Märkmed
 baseurl: "https://agiil.github.io/Notes"
 
-
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "IT"
+      published: "true"
+      sidebar: "false"
