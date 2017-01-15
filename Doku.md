@@ -75,17 +75,18 @@ Kui peame dokumentatsiooni oluliseks, soovime head dokumentatsiooni.
   - häid vahendeid on raske leida
 
 ## 6  Üks võimalik töövoog
-  - Markdown
-  - GitHub
-  - Git Bash
-  - Jekyll
-  - HTML5
-  - CSS3
-  - Liquid
-  - YAML
+  - [Markdown](https://en.wikipedia.org/wiki/Markdown) - laialtlevinud märgendkeel
+  - [GitHub](https://github.com/) - versioonihaldustarkvara
+  - [Git Bash](https://git-scm.com/downloads) - Git versioonihalduse tööriist
+  - [Jekyll](https://jekyllrb.com/) - staatilise veebisaidi generaatorrakendus
+    - [Kramdown](https://kramdown.gettalong.org/) - Jekylli preprotsessor (eeltöötleja)
+  - [HTML5](https://www.w3.org/TR/html5/) - universaalne veebikeel
+  - [CSS3](https://www.w3.org/standards/techs/css#w3c_all) - veebi kujunduskeel
+  - [Liquid](http://shopify.github.io/liquid/) - templiidikeel
+  - [YAML](http://yaml.org/) - lihtne märgendkeel
   - [Sublime Text 3](http://docs.sublimetext.info/en/latest/index.html) - programmeerija tekstiredaktor
     - [GitSavvy](https://github.com/divmain/GitSavvy) - tekstiredaktori Sublime Text 3 ja Giti lõimetis
-  - asciiFlow
+  - [asciiFlow]()
   
   <span style='text-decoration: underline;'>Järeldus.</span> Kahjuks ei saa me läbi ühe töövahendiga. Töövahendite lõimimine on päris suur väljakutse.
 
