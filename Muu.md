@@ -17,17 +17,6 @@ värvi muutmiseks 6068
 // Värvide valimine
 https://www.materialui.co/colors (Chromes)
 
-- -
-Agiilsõnastik
-    Käivita Git Bash
-    muuda Sublime-iga faili index.html
-    cd Desktop
-    cd AGIILSONASTIK
-    git add -A
-    git commit -m “uued sõnad”
-    git push
-- -
-
 ## Freshbrew
 - Repod ja kaustad:
   - GitHub: agiil/Freshbrew - publitseeritud blogi
