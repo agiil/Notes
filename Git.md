@@ -50,8 +50,9 @@ sidebar: true
 
 ## Loendamine
 
-- Failide rekursiivne loendamine jooksvas kataloogis: `find . -type f | wc -l`
-- Kaustade arv (rekursiivne): `find DHX-Adapter -type d | wc -l`
+- failide loendamine jooksvas kaustas failitüübi järgi: `ls -lR *.md | wc -l`
+- failide rekursiivne loendamine jooksvas kataloogis: `find . -type f | wc -l`
+- kaustade arv (rekursiivne): `find DHX-Adapter -type d | wc -l`
 - LOC count: `shopt -s globstar`, seejärel `wc -l **/*.java`
 - muudatuste statistika: `git diff --stat <commit>`
 
