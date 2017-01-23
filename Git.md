@@ -6,6 +6,8 @@ published: true
 sidebar: true
 ---
 
+<p><a href='https://github.com/agiil/Notes/edit/master/Git.md'><span class='material-icons'>edit</span></a></p>
+
 # Git
 {:.no_toc}
 
