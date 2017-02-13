@@ -48,7 +48,7 @@ sidebar: true
 - kataloogi loomine: `mkdir <kataloog>`
 - faili ümberpaigutamine: `mv <file> <kataloog>`
 - faili ümbernimetamine: `mv <old> <new>`
-
+- skripti täitmine: `./Puhasta.sh`
 - paste Git Bashis: `<Fn><Insert>` (Lenovo)
 
 ## Loendamine
