@@ -65,6 +65,7 @@ sidebar: true
 
 ## Kirjandus
 
+- [Git Reference](http://gitref.org/index.html) by GitHub team
 - [Git interaktiivne spikker](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
 - [Gitflow parem diagramm](http://www.patrickzahnd.ch/)
 - [2FA GitHubis](http://blog.swilliams.me/words/2015/04/01/two-factor-authentication-for-github/) 
