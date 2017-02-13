@@ -32,6 +32,7 @@ sidebar: true
 - lokaalse repo värskendamine: `git pull`
   - lokaalsete muudatuste üleslaadimine (eeldab push-õigust): `git push [origin]`
 - lokaalsete muudatuste hülgamine: `git reset --hard`  
+- haru loomine: `git branch <haru>`
 - harude kuvamine
   - kõik: (jooksev haru tärniga): `git branch`
     - kuvab nii lokaalsed kui ka eemal (remote) jälgitavad (tracking) harud: `git branch -a`
