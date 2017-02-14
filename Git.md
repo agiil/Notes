@@ -18,50 +18,57 @@ sidebar: true
 
 ## GitHubi lokaalne repo
 
-- lokaalse repo loomine
-  - mine kataloogi, kuhu alla lokaalne repo luua
-  `git clone <GitHubi repo URL>`
-- mis faile on muudetud?
-  - `git status`
-- commit-i ettevalmistamine 
-  - failide lisamine (staging): `git add <failinimi>`
-  - lisa kõik muudetud failid: `git add --all`
-  - stage manually deleted files (better to use `git rm)`: `git add -u`
-- commit-i tegemine
-  - `git commit -m <kirjeldus>`
-- lokaalse repo värskendamine: `git pull`
-  - lokaalsete muudatuste üleslaadimine (eeldab push-õigust): `git push [origin]`
-- lokaalsete muudatuste hülgamine: `git reset --hard`  
-- haru loomine: `git branch <haru>`
-- harude kuvamine
-  - kõik: (jooksev haru tärniga): `git branch`
-    - kuvab nii lokaalsed kui ka eemal (remote) jälgitavad (tracking) harud: `git branch -a`
-- haru kustutamine
-  - `git branch -d <haru>`
-- haru vahetamine
-  - `git checkout <haru>`
-- kustuta kaust (`-r` rekursiivne)
-  - `git rm -r <kaust>`
+__lokaalse repo loomine__ 1) mine kataloogi, kuhu alla lokaalne repo luua 2)  `git clone <GitHubi repo URL>`
+
+__mis faile on muudetud?__ `git status`
+
+__commit-i ettevalmistamine__ 1) failide lisamine (_staging_): `git add <failinimi>`; 2) lisa kõik muudetud failid: `git add --all`; 3)  stage manually deleted files (better to use `git rm)`: `git add -u`
+
+__commit-i tegemine__ `git commit -m <kirjeldus>`
+
+__lokaalse repo värskendamine__ `git pull`
+
+__lokaalsete muudatuste üleslaadimine__ (eeldab push-õigust): `git push [origin]`
+
+__lokaalsete muudatuste hülgamine__ `git reset --hard`
+
+__haru loomine__ `git branch <haru>`
+
+__ harude kuvamine__ kõik: (jooksev haru tärniga): `git branch`; kuvab nii lokaalsed kui ka eemal (remote) jälgitavad (tracking) harud: `git branch -a`
+
+__haru kustutamine__ `git branch -d <haru>`
+
+__haru vahetamine__ `git checkout <haru>`
+
+__kustuta kaust__ (`-r` rekursiivne) `git rm -r <kaust>`
 
 ## Git Bash
 
-- kataloogi loomine: `mkdir <kataloog>`
-- faili ümberpaigutamine: `mv <file> <kataloog>`
-- faili ümbernimetamine: `mv <old> <new>`
-- skripti täitmine: `./Puhasta.sh`
-- paste Git Bashis: `<Fn><Insert>` (Lenovo)
+__kataloogi loomine__ `mkdir <kataloog>`
+
+__faili ümberpaigutamine__ `mv <file> <kataloog>`
+
+__faili ümbernimetamine__ `mv <old> <new>`
+
+__skripti täitmine__ `./Puhasta.sh`
+
+__paste Git Bashis__ `<Fn><Insert>` (Lenovo)
 
 ## Loendamine
 
-- failide loendamine jooksvas kaustas failitüübi järgi: `ls -lR *.md | wc -l`
-- failide rekursiivne loendamine jooksvas kataloogis: `find . -type f | wc -l`
-- kaustade arv (rekursiivne): `find DHX-Adapter -type d | wc -l`
-- LOC count: `shopt -s globstar`, seejärel `wc -l **/*.java`
-- muudatuste statistika: `git diff --stat <commit>`
+__failide loendamine jooksvas kaustas failitüübi järgi__ `ls -lR *.md | wc -l`
+
+__failide rekursiivne loendamine jooksvas kataloogis__ `find . -type f | wc -l`
+
+__kaustade arv (rekursiivne)__ `find DHX-Adapter -type d | wc -l`
+
+__LOC count__ `shopt -s globstar`, seejärel `wc -l **/*.java`
+
+__muudatuste statistika__ `git diff --stat <commit>`
 
 ## Parooliküsimise vältimine
 
-- `git config --global credential.helper wincred`
+`git config --global credential.helper wincred`
 
 ## Kirjandus
 
