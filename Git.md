@@ -16,7 +16,7 @@ sidebar: true
 
 <a href='https://github.com/agiil/Notes'>Edit</a>
 
-## GitHubi lokaalne repo
+### GitHubi lokaalne repo
 
 __lokaalse repo loomine__ 1) mine kataloogi, kuhu alla lokaalne repo luua 2)  `git clone <GitHubi repo URL>`
 
@@ -42,7 +42,7 @@ __haru vahetamine__ `git checkout <haru>`
 
 __kustuta kaust__ (`-r` rekursiivne) `git rm -r <kaust>`
 
-## Git Bash
+### Git Bash
 
 __kataloogi loomine__ `mkdir <kataloog>`
 
@@ -54,7 +54,7 @@ __skripti täitmine__ `./Puhasta.sh`
 
 __paste Git Bashis__ `<Fn><Insert>` (Lenovo)
 
-## Loendamine
+### Loendamine
 
 __failide loendamine jooksvas kaustas failitüübi järgi__ `ls -lR *.md | wc -l`
 
@@ -66,11 +66,11 @@ __LOC count__ `shopt -s globstar`, seejärel `wc -l **/*.java`
 
 __muudatuste statistika__ `git diff --stat <commit>`
 
-## Parooliküsimise vältimine
+### Parooliküsimise vältimine
 
 `git config --global credential.helper wincred`
 
-## Kirjandus
+### Kirjandus
 
 - [Git Reference](http://gitref.org/index.html) by GitHub team
 - [Git interaktiivne spikker](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
@@ -79,6 +79,44 @@ __muudatuste statistika__ `git diff --stat <commit>`
 - [Kuidas mestimine töötab?](https://www.quora.com/How-does-Git-merge-work)
 - [aha-moments-when-learning-git](https://betterexplained.com/articles/aha-moments-when-learning-git/) 
 
+### GitHub Jekyll meelespea
 
+- tööpõhimõttelt tekstiteisendussüsteem
+  - tekstid (Markdown, HTML vm) + mallid -> staatiline veebisait 
+- repo `Setting`, `GitHub Pages` määra haru (nt `master`), kust publitseeritakse
+- töötluse läbivad Markdowni, aga ka muud failid, mis algavad päisega (_front matter_) - 3 miinusega eraldatud YAML tekst
+  - päises saab kasutada eeldefineeritud muutujaid, vt [https://jekyllrb.com/docs/frontmatter/](https://jekyllrb.com/docs/frontmatter/)
+  - oluline muutuja on `layout`; määrab lehe malli; mall peab olema kaustas `_layouts`
+- mallis saab kasutada nii lehe päises kui ka "globaalseid" muutujaid  
+  - muutujate kasutamisest vt [https://jekyllrb.com/docs/variables/](https://jekyllrb.com/docs/variables/)
+  - nt `content` - lehe sisu
 
+### Liquid
+- kasutusel on [Liquid](https://github.com/Shopify/liquid/wiki) mallikeel. _A placeholder is a piece of code that will ultimately be replaced when the template is sent to the browser. There are two types of placeholders in Liquid. The first is the double parentheses {% raw %}{{ }}{% endraw %} to denote output and the second is parentheses percentage {% raw %}{% %}{% endraw %} to denote logic._
+- nt `<h2>{% raw %}{{ product.title }}{% endraw %}</h2>`
+- nt 
+
+```
+{% raw %}{% if product.available %}
+This product is available
+{% else %}
+Sorry, this product is sold out
+{% endif %}{% endraw %}
+```
+
+- [hea juhend](https://webdesign.tutsplus.com/tutorials/getting-started-with-liquid-shopifys-template-language--cms-19747)
+- [hea meelespea](http://jekyll.tips/jekyll-cheat-sheet/)
+
+- Liquid loogika
+  - `include` - inserts a file from the `_includes` directory.
+- nt
+
+```html
+<h1>My site</h1>
+{% raw %}{% include nav.html %}{% endraw %}
+```
+
+### Kasulikku
+- koodibloki ette ja taha panna tühi rida
+- konfigureerimine `_config.yml` failiga (vt [https://jekyllrb.com/docs/configuration/](https://jekyllrb.com/docs/configuration/))
 
