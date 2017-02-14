@@ -34,7 +34,7 @@ __lokaalsete muudatuste hülgamine__ `git reset --hard`
 
 __haru loomine__ `git branch <haru>`
 
-__ harude kuvamine__ kõik: (jooksev haru tärniga): `git branch`; kuvab nii lokaalsed kui ka eemal (remote) jälgitavad (tracking) harud: `git branch -a`
+__harude kuvamine__ kõik: (jooksev haru tärniga): `git branch`; kuvab nii lokaalsed kui ka eemal (remote) jälgitavad (tracking) harud: `git branch -a`
 
 __haru kustutamine__ `git branch -d <haru>`
 
